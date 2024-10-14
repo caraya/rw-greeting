@@ -16,6 +16,7 @@
     }
   },
   "scripts": {
+    "build": "tsup src/index.mts --format cjs,esm --dts --clean --sourcemap",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
